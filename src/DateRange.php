@@ -1,6 +1,6 @@
 <?php
 
-namespace Kpolicar\DateRange;
+namespace Jasperverbeet\DateRange;
 
 use DateTimeInterface;
 use Laravel\Nova\Fields\Field;
@@ -79,7 +79,7 @@ class DateRange extends Field
      *
      * @return $this
      */
-    public function nullable()
+    public function isNullable()
     {
         return $this->withMeta(['nullable' => true]);
     }

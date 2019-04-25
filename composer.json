@@ -1,5 +1,5 @@
 {
-    "name": "kpolicar/nova-date-range",
+    "name": "jasperverbeet/nova-date-range",
     "description": "Custom date range picker field for Laravel Nova",
     "keywords": [
         "laravel",
@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Kpolicar\\DateRange\\": "src/"
+            "Jasperverbeet\\DateRange\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Kpolicar\\DateRange\\FieldServiceProvider"
+                "Jasperverbeet\\DateRange\\FieldServiceProvider"
             ]
         }
     },

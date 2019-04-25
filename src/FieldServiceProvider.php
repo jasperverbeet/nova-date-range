@@ -1,6 +1,6 @@
 <?php
 
-namespace Kpolicar\DateRange;
+namespace Jasperverbeet\DateRange;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
